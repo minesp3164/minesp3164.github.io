@@ -1,7 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./content/**/*.{html,js,mdx}"],
   theme: {
+    fontFamily: {
+      "noto": ["Noto Sans KR", "system-ui", "serif"]
+    },
     extend: {},
   },
   plugins: [],
